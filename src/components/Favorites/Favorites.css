@@ -1,0 +1,56 @@
+.favorites {
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 8, 7);
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.favorites__name {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0, 8, 7, .5);
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
+
+.favorites__list {
+    margin-bottom: 24px;
+}
+
+.favorites__save {
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    transition: all 0.2s linear;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.favorites__save:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all 0.2s linear;
+    background-color: #FFEEDB;
+    color: black;
+}
+.fav-li{
+    
+    border-radius: 1px;
+    padding-top: 5px;
+}
+.fav-btn {
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+   margin-top: 0px;
+   width: 25px;
+   height: 25px;
+  
+}
+.fav-btn:hover {
+    background-color: #FFEEDB;
+    color: black;
+}
